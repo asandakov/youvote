@@ -1,0 +1,95 @@
+/*
+  Localizable.strings
+ YouVote
+
+  Created by Алексей on 25.05.2021.
+  
+*/
+//MARK: App
+"app.name" = "Твой выбор";
+
+//MARK: Netrwork
+"netrwork.error.json" = "Техничиская ошибка. Попробуйте позже";
+
+//MARK: Token
+"token.error" = "Техничиская ошибка. Попробуйте позже";
+
+//MARK: Error
+"error.support" = "Техничиская ошибка. Попробуйте позже";
+
+//MARK: Auth [SignInFlow]
+"auth.name" = "Вход в систему";
+"auth.email.text" = "Введите свой email и получите код для входа в систему";
+"auth.text" = "При отправке вы соглашаетесь с политикой конфиденциальности и даёте согласие на обработку персональных данных";
+"auth.email" = "Email";
+"auth.code" = "Код";
+"auth.email.send" = "Получить код";
+"auth.error.email.no_auth" = "Неверный формат email";
+"auth.error.code.no_auth" = "Неверно введен код";
+"auth.error.email.empty_field" = "Введите email";
+"auth.error.code.empty_field" = "Введите код";
+"auth.code.text" = "Мы отправили код на %s";
+"auth.code.time" = "Для ввода кода у Вас %s сек.";
+"auth.code.send" = "Отправить";
+"auth.code.prev" = "назад";
+
+//MARK: ListVote [ListVoteFlow]
+"vote.list.title" = "Список опросов";
+"vote.list.search.placeholder" = "Поиск...";
+"vote.list.tab" = "Список";
+"vote.list.param.count" = "Проголосовало: %s";
+"vote.list.param.date" = "Окончание: %s";
+"vote.list.name" = "Все разделы";
+
+//MARK: DetailVote [DetailVoteFlow]
+"vote.detail.title" = "Опрос";
+"vote.detail.error.noVote" = "Нет опроса. Обновите список";
+"vote.detail.send" = "Проголосовать";
+"vote.detail.error.poll.auth" = "Чтобы проголосовать\nнужно войти в систему.\nАвторизируйтесь.";
+"vote.detail.error.noVaraiant" = "Выберите вариант";
+
+//MARK: FilterListVote [FilterListVote]
+"vote.filter.title" = "Фильтр";
+"vote.filter.param.topic" = "Раздел";
+
+//MARK: Feedback [FeedbackFlow]
+"feedback.title" = "Обратная связь";
+"feedback.tab" = "Обратная связь";
+"feedback.param.fio" = "Имя";
+"feedback.param.email" = "Email";
+"feedback.param.text" = "Сообщение";
+"feedback.param.send" = "Отправить";
+"feedback.titleSub" = "Если возникли вопросы, напишите нам";
+"feedback.text" = "При отправке вы соглашаетесь с политикой конфиденциальности и даёте согласие на обработку персональных данных";
+"feedback.success" = "Собщение отправлено успешно";
+"feedback.error" = "Собщение не отправлено.\n Попробуйте позже";
+"feedback.param.fioNo" = "Введите имя";
+"feedback.param.emailNo" = "Неверный формат email";
+"feedback.param.textNo" = "Введите сообщение";
+
+
+//MARK: Profil [ProfilFlow]
+"profil.title" = "Профиль";
+"profil.param.email" = "Email";
+"profil.param.email.name" = "Неизвестный";
+"profil.param.date" = "Дата последней авторизация";
+"profil.exit" = "Выйти";
+"profil.alert.ok.button" = "Ок";
+"profil.alert.title" = "Выйти";
+"profil.alert.message" = "Вы точно хотите выйти?";
+"profil.tab" = "Профиль";
+
+//MARK: Alert
+"alert.ok.button" = "Ок";
+"alert.cansel.button" = "Отмена";
+"alert.title" = "Сообщение";
+
+//MARK: AlertError
+"alert.error.title" = "Ошибка";
+"alert.error.message" = "Техническая ошибка. Попробуйте позже";
+
+//MARK: AlertNetwork
+"alert.network.message" = "Техническая ошибка. Попробуйте позже";
+
+
+
